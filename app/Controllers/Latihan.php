@@ -19,7 +19,6 @@ class Latihan extends BaseController
     $model = new Calculator();    
 
     $result = $model->sum($params1, $params2);
-    // $result = $params1 + $params2;
 
     echo "Hasil Penjumlahan dari $params1 + $params2 = $result";
   }
