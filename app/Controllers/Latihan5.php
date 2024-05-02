@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 class Latihan5 extends BaseController
+
 {
   public function index(){
     $data["judul"] = "Halaman Depan"; 
